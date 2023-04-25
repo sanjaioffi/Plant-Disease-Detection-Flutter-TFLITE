@@ -1,4 +1,3 @@
-import 'package:crop_disease_detection/disease_detection.dart';
 import 'package:crop_disease_detection/loading.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: 'Disease Detection',
       theme: ThemeData(
         primarySwatch: Colors.brown,

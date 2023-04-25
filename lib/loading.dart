@@ -12,8 +12,8 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
   @override
   void initState() {
- Future.delayed(Duration(seconds: 3), () {
-  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => DiseaseDetection()));
+ Future.delayed(const Duration(seconds: 3), () {
+  Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const DiseaseDetection()));
 });
     super.initState();
   }
